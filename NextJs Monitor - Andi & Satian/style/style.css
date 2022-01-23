@@ -1,0 +1,358 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  padding-top: 10px;
+  list-style: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #6c707c;
+}
+
+#nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  height: 90px;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  align-items: center;
+  /* box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.5); */
+  letter-spacing: 1.5px;
+  background-color: #f4f7ff;
+  padding: 10px;
+  font-size: 13px;
+}
+
+nav img {
+  width: 50px;
+}
+
+.logo {
+  font-weight: bold;
+  color: #292929;
+  font-size: 15px;
+}
+
+.logo:hover {
+  color: black;
+  transition: all ease 0.2s;
+}
+
+.menu {
+  display: flex;
+  margin-top: 10px;
+}
+
+.menu li a {
+  color: #6c707c;
+  padding: 10px;
+}
+
+.menu li a:hover {
+  background-color: #292929;
+  color: #fff !important;
+  border-radius: 3px;
+  transition: all ease 0.4s;
+}
+
+.logout {
+  color: #292929;
+}
+
+.logout:hover {
+  color: black;
+  transition: all ease 0.4s;
+}
+
+#main {
+  height: 100vh;
+  background-color: #f4f7ff;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  width: 50%;
+}
+
+.name h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.name h2 {
+  font-size: 45px;
+  letter-spacing: 1.5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.name p {
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+
+.main-media img {
+  width: 400px;
+  height: 250px;
+}
+
+#about {
+  height: 100vh;
+  color: #f4f7ff;
+  background-color: #292929;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-media img {
+  width: 400px;
+  height: 400px;
+}
+
+.about-media-produk img {
+  width: 400px;
+  height: 275px;
+}
+
+.about {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.about h1 {
+  font-size: 5rem;
+  letter-spacing: 1.5px;
+  font-weight: normal;
+  color: #17d1ac;
+  margin-bottom: 0;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.about p {
+  font-size: 20px;
+  letter-spacing: 1.8px;
+}
+
+#ido {
+  height: 100vh;
+  display: flex;
+  direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f7ff;
+  background-image: url("../assets/undraw_missed_chances_k-3-cq.svg");
+  background-size: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #1e1e1e;
+}
+
+.ido-text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 50px;
+    
+}
+
+.ido-text h1 {
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+  font-weight: normal;
+  width: normal;
+  text-align: center;
+
+  padding-bottom: 50px;
+}
+
+.ido-text p {
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+#things {
+  height: 120vh;
+  background-color: #f4f7ff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  letter-spacing: 4px;
+}
+
+#things-index{
+  height: 250vh;
+  background-color: #f4f7ff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  letter-spacing: 4px;
+}
+
+#things-index h1 {
+  text-align: right;
+  letter-spacing: 1.5px;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  font-size: 3rem;
+  color: #05ffde;
+  font-weight: normal;
+  list-style-type: circle;
+}
+
+#things h1 {
+  text-align: right;
+  letter-spacing: 1.5px;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  font-size: 3rem;
+  color: #05ffde;
+  font-weight: normal;
+  list-style-type: circle;
+}
+
+.card-body .card-title {
+  letter-spacing: 1.5px;
+}
+
+.card-body p {
+  letter-spacing: 1px;
+}
+
+.card {
+  align-items: center;
+  background-color: #fff;
+  text-align: left;
+  padding: 10px;
+  padding-left: 30px;
+  margin-right: 30px;
+  box-shadow: 3px 3px 40px #17d1ac;
+  border-radius: 90px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.card img {
+  width: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 10px;
+  object-position: 0px;
+}
+
+#skills {
+  height: 100vh;
+  background-color: #292929;
+  color: #f4f7ff;
+  padding-left: 150px;
+  padding-right: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+#skills h1 {
+  padding-top: 100px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 100px;
+}
+
+#skills img {
+  width: 200px;
+  height: 200px;
+}
+
+#skills p {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+.carousel-item p {
+  letter-spacing: 1px;
+}
+
+#space {
+  height: 150px;
+  background-color: #f4f7ff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px;
+  letter-spacing: 4px;
+}
+
+.space h1 {
+  font-size: 2rem;
+  color: #1e1e1e;
+  border-bottom: 1px solid #1e1e1e;
+}
+
+.space .space-button {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  width: 180px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 45px;
+  background-color: #1e1e1e;
+}
+
+.space a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+.space a:hover {
+  color: #17d1ac;
+  transition: 2s;
+}
+
+a {
+  font-size: 20px;
+}
